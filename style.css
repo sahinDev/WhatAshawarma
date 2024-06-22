@@ -79,7 +79,7 @@ body {
 .menu-items {
     order: 2;
     display: flex;
-    padding-right: 450px;
+    padding-left: 400px;
 
 }
 
