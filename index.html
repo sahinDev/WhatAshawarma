@@ -10,31 +10,53 @@
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQueriy-iphone13" />
 </head>
 
 <body>
     <nav class="navbar">
-        <div class="navbar-container container">
-            <input type="checkbox" name="" id="home">
-            <div class="hamburger-lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
+        <div>
+            <div id="navbar-info">
+                <div class="icons">
+                    <img src="img//IconCall.png" alt="IconCall">
+                    <h3>+16475055561</h3>
+                </div>
+                <!-- <div id="logo">
+                    <img src="img/logo.webp" alt="logo">
+                </div> -->
+                <div style="padding-right: 1rem;" class="icons">
+                    <img src="img/locationIcon.png" alt="locationIcon">
+                    <h3>664 Bloor St W, Toronto,
+                        ON M6G 1L2</h3>
+                </div>
+
             </div>
-            <ul class="menu-items">
-                <li><a href="#home">Home</a></li>
+
+
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id="home">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <!-- <ul class="menu-items">    
                 <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
+                <li><a href="#home">Home</a></li>
+                 <li><a href="#menu">Menu</a></li> 
                 <li><a href="#contact">Contact</a></li>
-            </ul>
-            <!-- <h1 class="logo" id="#home"> What A Shawarma </h1> -->
-        </div>
+            </ul> -->
+
+            </div>
     </nav>
     <section class="showcase-container">
-        <div>
-            <img class="showcase-area" src="img/hero.webp" /> <!--  careful with directory path  -->
-            <a id="showcase-button" class=" btn btn-primary" href="#menu">Menu</a>
+        <img class="showcase-area" src="img/hero.webp" /> <!--  careful with src directory path  -->
+        <!-- <h1 href="#menu">menu</h1> -->
+        <div id="Menu-button">
+            <a href="#menu" id="showcase-button" class="btn btn-primary">Menu</a>
         </div>
+
+        <!-- <img src="img/menuImg.jpeg" /> -->
 
         <!-- <div class="showcase-area">
                 </div>  -->
@@ -98,11 +120,14 @@
                     </div>
                 </div>
             </section> -->
-    <div style="background-color: black; margin-top: 640px; padding-top: 20px;  opacity: 80%;" id="menu-text">
-        <img style="border-radius: 50%; margin-left: 600px;" src="img/birdWrap.png" alt="Menu-bird-img">
-        <h1 style="text-align: center; color: orange;">Menu</h1>
+
+    <div id="menu"
+        style="background-color: black; margin-top: 400px; padding-left: 200px; padding-top: 20px;  opacity: 80%;"
+        id="menu-text">
+        <img style="border-radius: 90%; margin-left: 600px;" src="img/birdWrap.png" alt="Menu-bird-img">
+        <!-- <h1 style="text-align: center; color: orange;">Menu</h1> -->
     </div>
-    <section id="menu">
+    <section>
         <div id="details">
             <h1 style="margin: 5px 5px 5px 5px;" id="ingredients">Our Ingerdients</h1>
             <!-- <img id="img-ingredients" style="border-radius: 20%;" src="img/birdWrap.png" alt="birdWrap"> Might add later-->
@@ -171,6 +196,43 @@
                     <li>Garlic</li>
                     <li>Hot sauce</li>
                     <li>Tzatziki</li>
+                </ul>
+            </div>
+            <!-- delete below list later  -->
+            <div id="fake" class="list-ingrredients">
+                <h2 class="food-titile">Sides</h2>
+                <ul class="list">
+                    <li>Humus</li>
+                    <li>Tahini</li>
+                    <li>Pomagranade</li>
+                    <li>Garlic</li>
+                    <li>Hot sauce</li>
+                    <li>Tzatziki</li>
+                    <li>Humus</li>
+                    <li>Tahini</li>
+                    <li>Pomagranade</li>
+                    <li>Garlic</li>
+                    <li>Hot sauce</li>
+                    <li>Tzatziki</li>
+                    <li>Humus</li>
+                    <li>Tahini</li>
+                    <li>Pomagranade</li>
+                    <li>Garlic</li>
+                    <li>Hot sauce</li>
+                    <li>Tzatziki</li>
+                    <li>Humus</li>
+                    <li>Tahini</li>
+                    <li>Pomagranade</li>
+                    <li>Garlic</li>
+                    <li>Hot sauce</li>
+                    <li>Tzatziki</li>
+                    <li>Pomagranade</li>
+                    <li>Garlic</li>
+                    <li>Hot sauce</li>
+                    <li>Tzatziki</li>
+                    <li>Hot sauce</li>
+                    <li>Tzatziki</li>
+
                 </ul>
             </div>
 
@@ -552,7 +614,7 @@
     </section> -->
 
     <footer id="footer">
-        <h2>Restraunt &copy; all rights reserved</h2>
+        <h2>whatAshawarma &copy; all rights reserved</h2>
     </footer>
     <!-- .................../ JS Code for smooth scrolling /...................... -->
 
